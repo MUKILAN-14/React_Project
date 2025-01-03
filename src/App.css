@@ -1,13 +1,17 @@
-#ex{
+/* #ex{
   text-align: center;
   color: aqua;
-  background-color: black;
-  background-image: linear-gradient(to bottom right,black,white);
-  border-radius: 2vmax;
-  margin: 2vmax;
-  padding: 2vmax;
+  background-color: #1b222c;
+  padding: 1.5vmax;
+} */
+#content{
+  margin: 3vmax;
+  background-color:#12151c;
+  border-radius: 1vmax;
+  padding: 1vmax;
 }
-#ex button{
-  margin: 1vmax;
-  border-radius: 2vmax;
+@media (max-width: 768px) {
+  .header {
+      flex-direction: column;
+  }
 }

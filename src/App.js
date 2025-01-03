@@ -1,14 +1,11 @@
 import React from 'react';
-import Counter from './components/Counter';
-import Greeting from './components/Greeting';
+import Header from './components/Header/Header'
 import './App.css';
 
 const App = () => {
   return (
-    <div id="ex">
-      <Greeting name="Mukilan"/>
-      <h1>Welcome to React, Mukilan!</h1>
-      <Counter />  
+    <div id="content">
+        <Header />
     </div>
   );
 };
