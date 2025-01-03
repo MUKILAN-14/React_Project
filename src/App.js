@@ -1,13 +1,20 @@
 import React from 'react';
-import Header from './components/Header/Header'
+import Homepage from './components/Home/HomePage'
+import LandingPage from './components/LandingPage/Landingpage';
 import './App.css';
 
-const App = () => {
-  return (
-    <div id="content">
-        <Header />
+function app() {
+  if (window.location.pathname === '/home') {
+    return <Homepage />;
+  }
+  return <LandingPage />;
+}
+const App =()=>{
+  return(
+    <div className='content'>
+      {app()}
     </div>
-  );
-};
+  )
+}
 
 export default App;

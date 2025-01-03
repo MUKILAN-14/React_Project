@@ -1,0 +1,37 @@
+.landing-page {
+    margin: 2vmax;
+    border-radius:7vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 80vw; 
+    min-height: 92vh; 
+    background: linear-gradient(120deg, #661b1c, #8a6a6a);
+    background-size: 100% 100%;
+    box-shadow: 0vmax 0vmax 2vmax 0vmax rgb(237, 235, 235);
+    overflow: hidden;
+  }
+  
+  .explore-button {
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    width: 19vmax;
+    height: 19vmax;
+    border-radius: 50%;
+    background-color: #661b1c;
+    border-style: none;
+    color: rgb(210, 207, 207);
+    font-size: 2vmax;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.6s ease, box-shadow 0.1s ease;
+  }
+  
+  .explore-button:hover {
+    transform: scale(1.23);
+    box-shadow:0vmax 0vmax 2vmax 0vmax rgb(237, 235, 235); 
+  }
+  
+  
