@@ -11,7 +11,7 @@ function LandingPage() {
     return (
       <div className="landing-page">
       <button className="explore-button" onClick={navigateToHomePage}>
-        Explore
+      See What's On
       </button>
     </div>
     );
