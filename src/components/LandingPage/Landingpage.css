@@ -1,5 +1,5 @@
 .landing-page {
-    margin: 2vmax;
+    margin: 3vmax;
     border-radius:7vmax;
     display: flex;
     justify-content: center;
@@ -15,8 +15,8 @@
   .explore-button {
     font-family: 'Lobster', cursive;
     font-weight: bold;
-    width: 19vmax;
-    height: 19vmax;
+    width: 22vmax;
+    height: 22vmax;
     border-radius: 50%;
     background-color: #661b1c;
     border-style: none;
@@ -26,12 +26,44 @@
     text-align: center;
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.6s ease, box-shadow 0.1s ease;
+    transition: all 0.3s ease;
   }
-  
+  .explore-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 22vmax;
+  height: 22vmax;
+  border-radius: 50%;
+  border: 0.1vmax solid transparent;
+  box-shadow: 0 0 0 0 rgb(213, 0, 0);
+  transition: box-shadow 2s ease-in-out;
+}
   .explore-button:hover {
     transform: scale(1.23);
-    box-shadow:0vmax 0vmax 2vmax 0vmax rgb(237, 235, 235); 
+    box-shadow:0vmax 0vmax 2vmax 0vmax #661b1c; 
+  }
+  .explore-button:hover::before {
+    box-shadow: 0 0 15px 4px #661b1c;
+    animation: shadow-animation 0.25s ease-in-out forwards;
   }
   
+  @keyframes shadow-animation {
+    0% {
+      box-shadow: 0 0 0 0 rgba(0, 0, 0,0.5);
+    }
+    25% {
+      box-shadow: 2vmax 0 2vmax 0 rgba(0, 0, 0,0.5);
+    }
+    50% {
+      box-shadow: 2vmax 2vmax 2vmax 0 rgba(0, 0, 0,0.5);
+    }
+    75% {
+      box-shadow: 0 1vmax 1vmax 0 rgba(0, 0, 0,0.5);
+    }
+    100% {
+      box-shadow: 0 0 1vmax 1vmax rgba(0, 0, 0,0.5);
+    }
+  }
   
