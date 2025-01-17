@@ -5,7 +5,7 @@ import './Landingpage.css'
 function LandingPage() {
     
     const navigateToHomePage = () => {
-      window.location.href='/home'
+      window.location.href='/React_Project/home'
     };
   
     return (
