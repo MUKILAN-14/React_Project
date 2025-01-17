@@ -2,7 +2,7 @@
   "name": "react_project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MUKILAN-14.github.io/React_Project",
+  "homepage": "https://github.com/MUKILAN-14/React_Project/tree/main/public",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^16.1.0",
