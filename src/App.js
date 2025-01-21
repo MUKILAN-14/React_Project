@@ -4,7 +4,7 @@ import LandingPage from './components/LandingPage/Landingpage';
 import './App.css';
 
 function app() {
-  if (window.location.pathname === '/React_Project/home') {
+  if (window.location.pathname === `${process.env.PUBLIC_URL}/home`) {
     return <Homepage />;
   }
   return <LandingPage />;
