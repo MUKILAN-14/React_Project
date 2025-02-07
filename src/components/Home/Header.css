@@ -2,32 +2,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1vmax;
+    padding: 2vmax;
+    
 }
 
 .logo img {
+    filter: drop-shadow(0  2vmax 1.5vmax black);
     height: 6vmax;
     width: 12vmax;
 }
 .search-bar {
     display: flex;
     flex: 0.8; 
-    margin: 0 1vmax;
+    margin: 2vmax;
   }
   
 .search-bar input {
-    width: 80%; 
+    width: 40vmax; 
     padding: 0.5vmax;
-    font-size: 1vmax;
+    font-size: 1.3vmax;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    outline-color: #b11313;
+    border-radius: 1vmax;
+    outline-color: #686868;
 }
 
 .search-bar .search-button {
     background-color: transparent;
     border: none;
-    margin-left: 1vmax;
+    margin-left: 0.5vmax;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -35,8 +37,8 @@
   }
   
   .search-bar .search-button img {
-    width: 2vmax; 
-    height: 2vmax;
+    width: 2.4vmax; 
+    height: 2.4vmax;
   }
 
 .nav .nav-list {
@@ -44,17 +46,22 @@
     display: flex;
     margin: 1vmax;
     margin: 0;
-    padding: 0;
+    padding: 0.5vmax;
     
 }
 
 .nav .nav-list li a {
-    color: white;
+    color: rgb(61, 61, 61);
     text-decoration: none;
-    font-size: 1.2vmax;
-    padding: 2vmax;
+    font-size: 1.3vmax;
+    padding: 1.2vmax;
+    font-weight:bold;
 }
 
 .nav .nav-list li a:hover {
     color: red;
+}
+.search-bar .search-button:hover{
+    border-radius: 1vmax;
+    background-color: rgb(255, 151, 151);
 }

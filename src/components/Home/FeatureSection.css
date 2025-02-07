@@ -1,0 +1,22 @@
+.featured-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));  
+    padding: 1.2vmax;
+  }
+  
+  .featured-image {
+    width: 80%;
+    height: 30vmax;
+    margin: 2vmax;
+    margin-left: 3vmax;
+    border-radius: 2vmax;
+    box-shadow: 0vmax 0vmax 3vmax 0vmax rgb(10, 10, 10);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .featured-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0vmax 0vmax 3vmax 0vmax rgb(255, 255, 255);
+
+  }
+  

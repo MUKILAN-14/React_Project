@@ -1,14 +1,14 @@
 .landing-page {
     margin: 3vmax;
-    border-radius:7vmax;
+    border-radius:10vmax;
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 80vw; 
     min-height: 92vh; 
-    background: linear-gradient(120deg, #661b1c, #8a6a6a);
+    background: linear-gradient(120deg, #ff0000, #ffffff);
     background-size: 100% 100%;
-    box-shadow: 0vmax 0vmax 2vmax 0vmax rgb(237, 235, 235);
+    box-shadow: 0vmax 0vmax 2vmax 0vmax rgb(255, 255, 255);
     overflow: hidden;
   }
   
@@ -18,9 +18,10 @@
     width: 22vmax;
     height: 22vmax;
     border-radius: 50%;
-    background-color: #661b1c;
+    background-color: #ff0004;
+    background: linear-gradient(290deg, #ff0004, #ffffff);
     border-style: none;
-    color: rgb(210, 207, 207);
+    color: rgb(51, 32, 32);
     font-size: 2vmax;
     font-weight: bold;
     text-align: center;
